@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dragdrop PUBLIC "-//Carnegie Mellon University//DTD Dynadrop Layout 3.8//EN" "http://oli.cmu.edu/dtd/oli_dynadrop_layout_1_0.dtd">
+<dragdrop>
+  <layoutStyles><![CDATA[<style type="text/css"></style>]]></layoutStyles>
+  <targetArea><![CDATA[<div class="oli-dnd-table"> <div class="dnd-row dnd-row-header"> <div class="dnd-cell">Scenario</div> <div class="dnd-cell">Definition</div></div> <div class="dnd-row"> <div class="dnd-cell">Develop model to predict customer churn.</div> <div input_ref="e8a02d061dac43eba331d71b457fab83" class="dnd-cell target"></div></div> <div class="dnd-row"> <div class="dnd-cell">Met with the business leaders to gain an understanding of the company’s business needs related to customer retention.</div> <div input_ref="a5729bf916994ad6ad261ed6900152b6" class="dnd-cell target"></div></div> <div class="dnd-row"> <div class="dnd-cell">Create an application that provides customers with a customized service experience for their automotive needs.
+</div> <div input_ref="e892bd535ac94881893dea06cb6d51d2" class="dnd-cell target"></div></div></div>]]></targetArea>
+  <initiators><![CDATA[<div input_val="f642331e5f5c43e3bd15df85a71a1440" class="initiator">Analytic Objective</div> <div input_val="b612008fbf54457687c9917e8186d866" class="initiator">Problem Identification</div> <div input_val="fe36509dd1f34373bd08745990e26535" class="initiator">Business Objective</div>]]></initiators>
+</dragdrop>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dragdrop PUBLIC "-//Carnegie Mellon University//DTD Dynadrop Layout 3.8//EN" "http://oli.cmu.edu/dtd/oli_dynadrop_layout_1_0.dtd">
+<dragdrop>
+  <layoutStyles><![CDATA[<style type="text/css"></style>]]></layoutStyles>
+  <targetArea><![CDATA[<div class="oli-dnd-table"> <div class="dnd-row dnd-row-header"> <div class="dnd-cell">Use Case</div> <div class="dnd-cell">Task</div></div> <div class="dnd-row"> <div class="dnd-cell">Categorize users based on education level.</div> <div input_ref="d234a0d8499e4fa78e2c6c7e2bef7685" class="dnd-cell target"></div></div> <div class="dnd-row"> <div class="dnd-cell">Visualize relationships between </div> <div input_ref="d0d12570df104e0a9a10a5bdffe4c2aa" class="dnd-cell target"></div></div> <div class="dnd-row"> <div class="dnd-cell"></div> <div input_ref="b2d9d9993744419bb7d6e2519587754e" class="dnd-cell target"></div></div></div>]]></targetArea>
+  <initiators><![CDATA[<div input_val="dd3adc14ddcb456ba2c446fe7197cfcf" class="initiator">New Choice</div>]]></initiators>
+</dragdrop>

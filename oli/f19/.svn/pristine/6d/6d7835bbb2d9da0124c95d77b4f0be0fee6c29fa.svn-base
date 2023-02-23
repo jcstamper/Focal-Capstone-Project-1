@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dragdrop PUBLIC "-//Carnegie Mellon University//DTD Dynadrop Layout 3.8//EN" "http://oli.cmu.edu/dtd/oli_dynadrop_layout_1_0.dtd">
+<dragdrop>
+  <layoutStyles><![CDATA[<style type="text/css"></style>]]></layoutStyles>
+  <targetArea><![CDATA[<div class="oli-dnd-table"> <div class="dnd-row dnd-row-header"> <div class="dnd-cell">Header 1</div> <div class="dnd-cell">Header 2</div> <div class="dnd-cell">Header 3</div></div> <div class="dnd-row"> <div input_ref="af24d2a826b64c6f95ffdd42299b45da" class="dnd-cell target"></div> <div class="dnd-cell">Acquiring high value users on digital advertising platforms</div> <div class="dnd-cell">Enter text or set as drop target</div></div> <div class="dnd-row"> <div input_ref="e5e2bc25f1414ff7b965eeef31608ef8" class="dnd-cell target"></div> <div class="dnd-cell">Perform lifetime value predictions to </div> <div class="dnd-cell">Enter text or set as drop target</div></div> <div class="dnd-row"> <div input_ref="dffdaa7ba32d44b5ba16dadf0febe68a" class="dnd-cell target"></div> <div class="dnd-cell">Enter text or set as drop target</div> <div class="dnd-cell">Enter text or set as drop target</div></div></div>]]></targetArea>
+  <initiators><![CDATA[<div input_val="c48c370225a44cca9071b512cf8f2988" class="initiator">New Choice</div>]]></initiators>
+</dragdrop>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE organization PUBLIC "-//Carnegie Mellon University//DTD Content Organization Simple 2.3//EN" "http://oli.web.cmu.edu/dtd/oli_content_organization_simple_2_3.dtd">
+<organization id="foundations-zxfk9cu6-1.0_default" version="1.0">
+	<title>Default Organization</title>
+	<description>Sample organization included with the OLI project template.</description>
+	<audience>This organization is intended as an example for OLI content authors.</audience>
+	<labels sequence="Sequence" unit="Unit" module="Module" section="Section" />
+	<sequences>
+		<sequence id="part1" category="content" audience="all">
+			<title>Foundations of Computational Data Science</title>
+			<unit id="lesson1">
+				<title>Problem Identification and Solution Vision</title>
+				<item id="c47d16ebd5c848e9b9597bcd9bdac15a" scoring_mode="default">
+					<resourceref idref="dc027b76e6f144bfb96391c4f4e26178" />
+				</item>
+				<module id="ab1c241b3a534dcfbbef3605598dc091">
+					<title>Problem Identification</title>
+					<item id="b8d76c3415864bdb9fda304d04ab4d2f" scoring_mode="default">
+						<resourceref idref="c98c595df5fe4c708d82f2a4bb2726a5" />
+					</item>
+					<item id="d43900c1e79b42c8b61610807b0adb45" scoring_mode="default">
+						<resourceref idref="bf66164fa2d145259230fd0eb255c2e1" />
+					</item>
+					<item id="ef77be473d4642a3b9197eb94d0b8676" scoring_mode="default">
+						<resourceref idref="d29b512ad9f54e5c84150164e30a6aa3" />
+					</item>
+					<item id="aa54e47223fd4ca9932dc4a33c8701d1" scoring_mode="default">
+						<resourceref idref="f1fd5eae72a14a8485c16fb93f4d15dc" />
+					</item>
+					<item id="ee8aa517a34b4229bfc034ecfbe488a5" scoring_mode="default">
+						<resourceref idref="welcome" />
+					</item>
+					<item id="eba2678c302a4bb79b1f05e8cacdcf1e" scoring_mode="default">
+						<resourceref idref="dee5ac8bd6ce4339a686c56ca2f4a871" />
+					</item>
+				</module>
+				<module id="db056394c1ff41be83e9b99fc1214ac4">
+					<title>Distilling the Analytic Objective</title>
+					<item id="d3fd81a1682747bda2d78cbee264ac6c" scoring_mode="default">
+						<resourceref idref="b18d448de2514761bc6bda97d9b4bb60" />
+					</item>
+					<section id="bd6e9c53cff54935a09d288aa7cee528">
+						<title>Components of An Analytic Objective</title>
+						<item id="b8c47dbb464448bba980ccede8faf6f8" scoring_mode="default">
+							<resourceref idref="e260bc12b0e940a2a88262a8aec11970" />
+						</item>
+						<item id="dd03eabcfb95439aacdab35ef43c38f7" scoring_mode="default">
+							<resourceref idref="eb2f3840a8104780912ccad53392a130" />
+						</item>
+						<item id="cd3090f61508413c82a1dc504556a7cc" scoring_mode="default">
+							<resourceref idref="c92fcac6686c4fd096dec4a854a271f2" />
+						</item>
+						<item id="b4b373b1143d4908ac698554d946355e" scoring_mode="default">
+							<resourceref idref="e453a3c17d1f4be8909e27937597da4b" />
+						</item>
+						<item id="a7ee6af23db44b76859bb08932162625" scoring_mode="default">
+							<resourceref idref="e561bf51b3a14192ad27ee66ea0d9b27" />
+						</item>
+						<item id="b867ac68c1ff4858ba1f513a45963421" scoring_mode="default">
+							<resourceref idref="c68519d2b30e4683a87f94f8b53283ce" />
+						</item>
+						<item id="a17b62c41a3c4a4fba603226dd1f01b0" scoring_mode="default">
+							<resourceref idref="d746710bc6284e18acd95e112c8252f9" />
+						</item>
+					</section>
+					<item id="f6d60f3f176b4114a42ec38c49b48260" scoring_mode="default">
+						<resourceref idref="b70d1886fc7e48a98d1941febbde3152" />
+					</item>
+				</module>
+				<module id="db92a2ca5a5a43dcb9adef1ec1d9a150">
+					<title>Data Science Lifecycle</title>
+					<item id="b3915261ead9454f9cade09c308d49d5" scoring_mode="default">
+						<resourceref idref="f48ee0338e814a2c90e1294d14052375" />
+					</item>
+					<item id="f7878094aff2419289935051e95a7daa" scoring_mode="default">
+						<resourceref idref="c404c7e9a5ba45dca1c9e763351aa76f" />
+					</item>
+					<item id="acf9ebdd76304101a3ac30425b24df54" scoring_mode="default">
+						<resourceref idref="f91876280e8743c1b110a49649a89162" />
+					</item>
+				</module>
+			</unit>
+			<unit id="d174a662541e4cc9a37f29263043654a">
+				<title>Analytic Requirements Gathering</title>
+				<module id="adec8dfd776f4527a2d779b7f7b4a18d">
+					<title>Requirements Overview</title>
+					<item id="b0bbd0286e0f492ebb4df43af63b6982" scoring_mode="default">
+						<resourceref idref="ebc62268ac6c4c188a6719231f3c3f54" />
+					</item>
+					<item id="e35b92059bde4945a2c212068723dc15" scoring_mode="default">
+						<resourceref idref="ca54d3de337f4247b27c5f7ae23dfd2a" />
+					</item>
+					<item id="b869c05dc18f46fda637feaeed3a55cf" scoring_mode="default">
+						<resourceref idref="ff7cba66391a4fb392fae7dd1f8d98db" />
+					</item>
+					<item id="ae73b91fb4b04f6580dbc827c396bc08" scoring_mode="default">
+						<resourceref idref="b48ebd2cb2c34ab9aa39bb99cbc2a193" />
+					</item>
+					<item id="e9499ee661c8455791257fbaeeee54e7" scoring_mode="default">
+						<resourceref idref="c9c4a0e70194444fb7f47474704b64e7" />
+					</item>
+					<item id="d74f5e76b77544a3bec986c28460806e" scoring_mode="default">
+						<resourceref idref="e6fed9120291434da550600c5d17e699" />
+					</item>
+				</module>
+				<module id="c403aa13252b4c608d0b55256c8f585a">
+					<title>Requirements Gathering Techniques</title>
+					<item id="ab7f096090b24cb88acc9aeddc752363" scoring_mode="default">
+						<resourceref idref="e714c309bef9406f971f0ddd02040937" />
+					</item>
+					<item id="ea7f62b326f14a59841e4ece82629b8f" scoring_mode="default">
+						<resourceref idref="a3e60ec52fd1485daf95a85dac31bbff" />
+					</item>
+					<item id="c2f7ac1711f04e02b3c19c0fa8383c38" scoring_mode="default">
+						<resourceref idref="f5ff978fd8024e648648d41b9f40e7a5" />
+					</item>
+				</module>
+			</unit>
+			<unit id="aaa4d31f312c478c9432f783a5d92058">
+				<title>Data Gathering and Wrangling</title>
+				<module id="e6f4fbf9dde742e6aa37f513262bfb5f">
+					<title>Data Gathering</title>
+					<item id="fe9531e39b10410494813032392e08c5" scoring_mode="default">
+						<resourceref idref="a02cc691384d43edbaf707f306841c3b" />
+					</item>
+					<item id="be4e903d56ef4934bbe6fb7870a32b80" scoring_mode="default">
+						<resourceref idref="bc86b2c06c584fada885798b85a0df59" />
+					</item>
+					<item id="f7bfdd9fb4d943d593d91f027816c18a" scoring_mode="default">
+						<resourceref idref="e22de09db5b34faa9c1d2cda84b950e0" />
+					</item>
+				</module>
+				<module id="ec51ec7149424e3c8f1a3f396f26b948">
+					<title>Data Collection Process</title>
+					<item id="efb82142c9c7467a8240570c83e225d6" scoring_mode="default">
+						<resourceref idref="d0e07b692e9749d0b85d797b7c52c67b" />
+					</item>
+					<item id="b798ced6ef854babb9f66a7485c5692c" scoring_mode="default">
+						<resourceref idref="bbf606c0c1b64c9fb88740e5ac53cc29" />
+					</item>
+					<item id="d3cd90589ee84caa827f5209d6aaf330" scoring_mode="default">
+						<resourceref idref="a0abc3fa0e6b44aaaf5e70e36602b61e" />
+					</item>
+				</module>
+				<module id="f66f5047e19446d1a27b97f130f05260">
+					<title>Data Wrangling Pipeline</title>
+					<item id="d25fd3fb5141431b8f8bf0cfb341b420" scoring_mode="default">
+						<resourceref idref="c769c4dcaeb4425d9181d153d65ebdc3" />
+					</item>
+					<section id="bebd72a84109474199d33749fd9f2582">
+						<title>Data Wrangling</title>
+						<item id="ee6ab1adcf6947b7b466ad1336ca70c2" scoring_mode="default">
+							<resourceref idref="ff2f9f9615bc439282eed27351aa5b4c" />
+						</item>
+						<item id="cd1100b25a4f41b1aa1af088efb65bf9" scoring_mode="default">
+							<resourceref idref="c768a1f3c4794dc08bef7767fdf20d34" />
+						</item>
+						<item id="e27a382bfd154ce1aed5423e19c49d49" scoring_mode="default">
+							<resourceref idref="ec21750cc96c4744ac20259c45ac474b" />
+						</item>
+					</section>
+					<item id="c8984a9f590347788b47eb66149b1416" scoring_mode="default">
+						<resourceref idref="c0b1dfda12d741328bdcbe40b2b475bb" />
+					</item>
+				</module>
+			</unit>
+			<unit id="cbbed24b15a84085985891a3cf48a66d">
+				<title>Exploratory Data Analysis</title>
+				<item id="bf5899b963754f0b9ece6765962ede1d" scoring_mode="default">
+					<resourceref idref="a2c9cadf120741b1b0709f4ea57eea38" />
+				</item>
+				<module id="b0636a478f714766a8d8a6443eb107cc">
+					<title>Performing Exploratory Data Analysis</title>
+					<item id="d1ad0c97b6f6421fa866ae20362475d4" scoring_mode="default">
+						<resourceref idref="f96c06e17933437db6bea35d06aa5d57" />
+					</item>
+					<item id="bc4163ab30ec4e479cfd21fe4c960105" scoring_mode="default">
+						<resourceref idref="e4fb0de27ddb427893600030b3b08e5c" />
+					</item>
+					<item id="dc2f2b25886e4e60b6efd3bc5b0654d3" scoring_mode="default">
+						<resourceref idref="e32d2f0eb3bd4fe9a51c2b9fecc17cd6" />
+					</item>
+				</module>
+				<module id="b09af1c9ff5d4fa4b08b1551f2f9a255">
+					<title>Feature Engineering</title>
+					<item id="bfabd99a2fdb4331a98a5e8035f23591" scoring_mode="default">
+						<resourceref idref="e836784715544d8ab29d72da3687b322" />
+					</item>
+					<item id="d54f765911e84ccaa0517945f316097c" scoring_mode="default">
+						<resourceref idref="be2904e7ee5f4413a60451a6f582b3b8" />
+					</item>
+					<item id="ff28b5d36d964e14b4932eea6054e497" scoring_mode="default">
+						<resourceref idref="e656dd356b48423a95d0257066d895d9" />
+					</item>
+					<item id="f6f90d807d6f453fb3081c865f5dd392" scoring_mode="default">
+						<resourceref idref="afe43b3ca23848d29a3af1d12f9c426d" />
+					</item>
+					<item id="f94d594407444e988596867039088e38" scoring_mode="default">
+						<resourceref idref="a4167b26abaf41c999d256ed199c8127" />
+					</item>
+				</module>
+			</unit>
+			<unit id="fdf1af6751c44a1da879c9c20319c01f">
+				<title>Analytic Algorithms and Model Building</title>
+				<item id="ba017ee3514849bfa45adbe6f0d7e75b" scoring_mode="default">
+					<resourceref idref="f77eeffd875947d69e59a08b5d4076ec" />
+				</item>
+				<module id="b28060fbabd04ece99dedddc7008a350">
+					<title>Data Science Patterns</title>
+					<item id="f96b2140ccc04bbda62fa4f942b2d072" scoring_mode="default">
+						<resourceref idref="c0d8e2d38a6c4f06844ae7dde6b38d69" />
+					</item>
+					<item id="e59baa45405a41f49835ef2b1be4d1a0" scoring_mode="default">
+						<resourceref idref="c5a0b993dba046cab079b5dfeedaf908" />
+					</item>
+					<item id="d80d2a6694694509a7685cb82ff86a94" scoring_mode="default">
+						<resourceref idref="c73cb4303aec4dc8a75b8960603e99d5" />
+					</item>
+					<item id="d49f925c89354363ba9e41d91f75e4e8" scoring_mode="default">
+						<resourceref idref="af529a5ec36b4e2aa5ef42060df029ce" />
+					</item>
+					<item id="d89f863220c0469e82377742c4347bba" scoring_mode="default">
+						<resourceref idref="c925074097744ccba39546b7be2d28c9" />
+					</item>
+					<item id="b4508cfdb29141d9afeafd935ea540cc" scoring_mode="default">
+						<resourceref idref="f92219fb485c4e96bbb649d63e54a7c5" />
+					</item>
+					<item id="ac81b85fc0944324bf9c22d5700009d3" scoring_mode="default">
+						<resourceref idref="a2aba8cb20d84feb92654647946ecbb8" />
+					</item>
+				</module>
+				<module id="dea627cc8c1c4f3287bb82bb165ebcc0">
+					<title>Bias-Variance Tradeoff</title>
+					<item id="c3eb32340677489c97d683dc0bc60d5d" scoring_mode="default">
+						<resourceref idref="f4e02624db114a8a9c8cd78840a1f707" />
+					</item>
+					<item id="dc1c3ffcdb13466a9cad3fffbf37bc42" scoring_mode="default">
+						<resourceref idref="ec5450c0005241cdb5f7d2b80331aab2" />
+					</item>
+					<item id="ca5e418b72c04dc69f2acf02afafaa52" scoring_mode="default">
+						<resourceref idref="bdebfe08ac9049548b99f19762eac40b" />
+					</item>
+					<item id="ce2b3826f76840f080f9b4ee951317a1" scoring_mode="default">
+						<resourceref idref="bc51037f932144ffbb61e8b00654c0e1" />
+					</item>
+				</module>
+				<module id="cb140b06269d45bd8c97395505c4ae52">
+					<title>Supervised Techniques</title>
+					<item id="d74949bd98814eea85d9d131f13b91bd" scoring_mode="default">
+						<resourceref idref="d22b539885d241d5acb1f953be09a54e" />
+					</item>
+					<item id="b21c2ad12cea40b38969f35ff1c2e1fc" scoring_mode="default">
+						<resourceref idref="ed91e3be86334b32883983125941046e" />
+					</item>
+					<item id="c7b96cba7ffc4c9d92ecf7bd4644232f" scoring_mode="default">
+						<resourceref idref="f73b5ad409304e1c8a4ec689bab7463d" />
+					</item>
+					<item id="c21b258693914edab16aee65ae007925" scoring_mode="default">
+						<resourceref idref="c0da183109594ae09b9ec5303ac457a9" />
+					</item>
+					<item id="bb019bfc78f642e1b24af6620dd6751b" scoring_mode="default">
+						<resourceref idref="f0b1f52b9c484fb7b70bbcafcaf64e3d" />
+					</item>
+					<item id="cf9e868a9c8a46fcacf587b9d189eabf" scoring_mode="default">
+						<resourceref idref="a9f596c78e124ac4a71bb63f4af2b672" />
+					</item>
+				</module>
+				<module id="ca8f3d5cb42b4a25962609edf1346963">
+					<title>Unsupervised Learning Techniques</title>
+					<item id="ba4ae1da3e6e4921a535883890a1dd5d" scoring_mode="default">
+						<resourceref idref="d06e2d1cefb6421b946065b2d2ad647c" />
+					</item>
+					<item id="f537c701a59f4b7e9668f3f7f55e7ec0" scoring_mode="default">
+						<resourceref idref="e843820862824c77903d30f41a295dac" />
+					</item>
+					<item id="af10fca9801143fe8f56410b582bae63" scoring_mode="default">
+						<resourceref idref="d36a94bc5b3e4f6d91845ce57283dafa" />
+					</item>
+				</module>
+			</unit>
+			<unit id="e89e71c420a74b57ab2ca8a456f5c328">
+				<title>Model Evaluation</title>
+				<item id="c4a927b8823843b3855baa412dce4184" scoring_mode="default">
+					<resourceref idref="ac4605b2a7c54814adae760db0cd03d3" />
+				</item>
+				<module id="cc316a628d744e8eabfc414d39d91fdd">
+					<title>Interpreting Models</title>
+					<item id="b251a067e5624ab489be771b7498588d" scoring_mode="default">
+						<resourceref idref="b54b9560ac4f474e948597c8f4cc8ce7" />
+					</item>
+					<item id="b4a2f7f0c2594f1e9223a656a841dd40" scoring_mode="default">
+						<resourceref idref="ff16c81c152740aa9d2d3e312b8cc4f7" />
+					</item>
+					<item id="e7c6a1001b7442fe832fb9919a1c5db8" scoring_mode="default">
+						<resourceref idref="b7ceae5042564a13b7868f95bddacfcb" />
+					</item>
+				</module>
+				<module id="e4496854b09243ad8ed41ba3421e1eb6">
+					<title>Evaluation Metrics</title>
+					<item id="e10044e0e8ea459bac4a728423fae55f" scoring_mode="default">
+						<resourceref idref="ff70848f356c40d1a1c1bd183d2d194a" />
+					</item>
+					<item id="c9b711ed61de4d5a838778cf662724b5" scoring_mode="default">
+						<resourceref idref="bd5ac3e3535640598fc045e480a49068" />
+					</item>
+					<item id="f1c88836655a4d178a329595820ef604" scoring_mode="default">
+						<resourceref idref="bac22ecf62614913b53e8b09ee38b8a6" />
+					</item>
+					<item id="b9e3a4e175d84cb5983e7ae8e159665a" scoring_mode="default">
+						<resourceref idref="d5eabd6a0da14916bdd5a5c7ab564f58" />
+					</item>
+				</module>
+				<item id="ecd5ce9b44c4463ab5aafe3eeec75b0a" scoring_mode="default">
+					<resourceref idref="c944a901086345f0a0adbfd4e425d41d" />
+				</item>
+				<item id="cd99d5559f864067a0ed9256894b23b8" scoring_mode="default">
+					<resourceref idref="de888370bf4c4bf0a7e9097d7a41e144" />
+				</item>
+			</unit>
+		</sequence>
+	</sequences>
+</organization>
