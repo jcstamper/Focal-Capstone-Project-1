@@ -1,0 +1,566 @@
+<organization id="foundations_comp_data_sci_m22-3.1_default" version="1.0">
+<title>Default Organization</title>
+<description>Sample organization included with the OLI project template.</description>
+<audience>This organization is intended as an example for OLI content authors.</audience>
+<labels sequence="Sequence" unit="Unit" module="Module" section="Section"/>
+<sequences>
+<sequence id="part1" category="content" audience="all">
+<title>Foundations of Computational Data Science</title>
+<unit id="lesson1">
+<title>Problem Identification and Solution Vision</title>
+<item id="c47d16ebd5c848e9b9597bcd9bdac15a" scoring_mode="default">
+<resourceref idref="dc027b76e6f144bfb96391c4f4e26178"/>
+</item>
+<module id="ab1c241b3a534dcfbbef3605598dc091">
+<title>Problem Identification</title>
+<item id="b8d76c3415864bdb9fda304d04ab4d2f" scoring_mode="default">
+<resourceref idref="c98c595df5fe4c708d82f2a4bb2726a5"/>
+</item>
+<item id="d43900c1e79b42c8b61610807b0adb45" scoring_mode="default">
+<resourceref idref="bf66164fa2d145259230fd0eb255c2e1"/>
+</item>
+<item id="ef77be473d4642a3b9197eb94d0b8676" scoring_mode="default">
+<resourceref idref="d29b512ad9f54e5c84150164e30a6aa3"/>
+</item>
+<item id="aa54e47223fd4ca9932dc4a33c8701d1" scoring_mode="default">
+<resourceref idref="f1fd5eae72a14a8485c16fb93f4d15dc"/>
+</item>
+<item id="ee8aa517a34b4229bfc034ecfbe488a5" scoring_mode="default">
+<resourceref idref="welcome"/>
+</item>
+<item id="eba2678c302a4bb79b1f05e8cacdcf1e" scoring_mode="default">
+<resourceref idref="dee5ac8bd6ce4339a686c56ca2f4a871"/>
+</item>
+</module>
+<module id="db056394c1ff41be83e9b99fc1214ac4">
+<title>Distilling the Analytic Objective</title>
+<item id="d3fd81a1682747bda2d78cbee264ac6c" scoring_mode="default">
+<resourceref idref="b18d448de2514761bc6bda97d9b4bb60"/>
+</item>
+<section id="bd6e9c53cff54935a09d288aa7cee528">
+<title>Components of An Analytic Objective</title>
+<item id="b8c47dbb464448bba980ccede8faf6f8" scoring_mode="default">
+<resourceref idref="e260bc12b0e940a2a88262a8aec11970"/>
+</item>
+<item id="dd03eabcfb95439aacdab35ef43c38f7" scoring_mode="default">
+<resourceref idref="eb2f3840a8104780912ccad53392a130"/>
+</item>
+<item id="cd3090f61508413c82a1dc504556a7cc" scoring_mode="default">
+<resourceref idref="c92fcac6686c4fd096dec4a854a271f2"/>
+</item>
+<item id="b4b373b1143d4908ac698554d946355e" scoring_mode="default">
+<resourceref idref="e453a3c17d1f4be8909e27937597da4b"/>
+</item>
+<item id="a7ee6af23db44b76859bb08932162625" scoring_mode="default">
+<resourceref idref="e561bf51b3a14192ad27ee66ea0d9b27"/>
+</item>
+<item id="b867ac68c1ff4858ba1f513a45963421" scoring_mode="default">
+<resourceref idref="c68519d2b30e4683a87f94f8b53283ce"/>
+</item>
+<item id="a17b62c41a3c4a4fba603226dd1f01b0" scoring_mode="default">
+<resourceref idref="d746710bc6284e18acd95e112c8252f9"/>
+</item>
+</section>
+<item id="f6d60f3f176b4114a42ec38c49b48260" scoring_mode="default">
+<resourceref idref="b70d1886fc7e48a98d1941febbde3152"/>
+</item>
+</module>
+<module id="db92a2ca5a5a43dcb9adef1ec1d9a150">
+<title>Data Science Lifecycle</title>
+<item id="b3915261ead9454f9cade09c308d49d5" scoring_mode="default">
+<resourceref idref="f48ee0338e814a2c90e1294d14052375"/>
+</item>
+<item id="f7878094aff2419289935051e95a7daa" scoring_mode="default">
+<resourceref idref="c404c7e9a5ba45dca1c9e763351aa76f"/>
+</item>
+<item id="acf9ebdd76304101a3ac30425b24df54" scoring_mode="default">
+<resourceref idref="f91876280e8743c1b110a49649a89162"/>
+</item>
+</module>
+</unit>
+<unit id="b36a6fa75daa4a0caf28514c17bbcff2">
+<title>Data Science Project Planning</title>
+<item id="dd398c2232054d49898343b52e339d65" scoring_mode="default">
+<resourceref idref="b5ccf28bb8484442a03caa4cece47534"/>
+</item>
+<module id="c4e3ee73694048b2acdc754bcee606c4">
+<title>Developing a Vision</title>
+<item id="cffd43ad791940d482629b3a2b067d74" scoring_mode="default">
+<resourceref idref="ec0e8fe23815494b830d5d25f22e55a2"/>
+</item>
+<item id="dd5bdbced75e4797a6f8da0df7772162" scoring_mode="default">
+<resourceref idref="e61fc247f8404e7f873a97cc8b70a6e6"/>
+</item>
+<item id="dc3ccbe4f2624e4c9e1cce6606ff48ea" scoring_mode="default">
+<resourceref idref="ba01b630b72d461a8f2140b6966317b2"/>
+</item>
+<item id="e0cab60cbade47ef8dca28ac28bac966" scoring_mode="default">
+<resourceref idref="a14ec0e430c44ecaab7d39e4f1e8681d"/>
+</item>
+</module>
+<module id="b2228ed4aee84386866bf027ebf816e7">
+<title>Requirements Gathering</title>
+<item id="fe6b43cb092e49d184285af29e8804ca" scoring_mode="default">
+<resourceref idref="ef9a898102e44a628fc073032c6a11ff"/>
+</item>
+<item id="f02dbffd19f44829858e86d39f709dd9" scoring_mode="default">
+<resourceref idref="ca54d3de337f4247b27c5f7ae23dfd2a"/>
+</item>
+<item id="c56bea7ce82644ca8c78464020ae01eb" scoring_mode="default">
+<resourceref idref="ff7cba66391a4fb392fae7dd1f8d98db"/>
+</item>
+<item id="c9582eb92ae14c819b25de5e2a8e7683" scoring_mode="default">
+<resourceref idref="b48ebd2cb2c34ab9aa39bb99cbc2a193"/>
+</item>
+<item id="d88375b1f88747fb83e9417fb005e242" scoring_mode="default">
+<resourceref idref="c9c4a0e70194444fb7f47474704b64e7"/>
+</item>
+<item id="d7ad785497424252a710a7a2c9781891" scoring_mode="default">
+<resourceref idref="e714c309bef9406f971f0ddd02040937"/>
+</item>
+<item id="de32866397c14cd2ac2a31042f9a05b2" scoring_mode="default">
+<resourceref idref="a3e60ec52fd1485daf95a85dac31bbff"/>
+</item>
+<item id="bea22ff215e04f2aac079c47ba2b4580" scoring_mode="default">
+<resourceref idref="bee01d50fdef4392a022cb08e3055bfc"/>
+</item>
+<item id="c633293e351e4dd0a1dadcfd78f5296c" scoring_mode="default">
+<resourceref idref="df997e30254b4079800e09653fc6ef8e"/>
+</item>
+</module>
+<module id="b345aedb8f2a42aeb21818f6906d638a">
+<title>Design and Plan Overview</title>
+<section id="f4cbca9bac7140c699a94eac404cd303">
+<title>Designing the Project</title>
+<item id="f7eb075effa641faa88e72226c27ffdf" scoring_mode="default">
+<resourceref idref="c147d074d17c43879f2aef50c9a32f32"/>
+</item>
+<item id="f29c47d9a0b248d7881f39c43985c6d9" scoring_mode="default">
+<resourceref idref="c3afdfacb9204ec0a2bf90c5361ee997"/>
+</item>
+<item id="b3a3eff9c26c4d02913a44565c79f2da" scoring_mode="default">
+<resourceref idref="b580201dc8fd41e38aee1232f6556d34"/>
+</item>
+</section>
+<section id="f42437c3792c410c82ee0afcf6b8d597">
+<title>Developing a Plan</title>
+<item id="a4ec13ce25a14e72be5df26f96878575" scoring_mode="default">
+<resourceref idref="e82200b224094720a962d7c4bba44d7b"/>
+</item>
+<item id="bf88b53889b6487daba3bc65073059a1" scoring_mode="default">
+<resourceref idref="d9763f7f0f1b4885bdc5466dfa04429f"/>
+</item>
+</section>
+<item id="ea7c639c038a4a0f8505c108760f8cf4" scoring_mode="default">
+<resourceref idref="be50f4c7ce7b4382a1231a706241783f"/>
+</item>
+<item id="ad45ed27bb3f45478b6706e797be4b39" scoring_mode="default">
+<resourceref idref="b36cfec6035e44ddbb0277c9ecc1fd3c"/>
+</item>
+</module>
+</unit>
+<unit id="d50a32a458e342588c522bfe6c17d5c9">
+<title>Collecting and Understanding Data</title>
+<module id="edc8b7608db44d82bbb4e27d0a78cbd1">
+<title>Data Collection</title>
+<item id="ae29df9a2ade4b02a8dd151d9859adc7" scoring_mode="default">
+<resourceref idref="ca5be992fa6b4b88a378dc48c8759002"/>
+</item>
+<item id="d8faf0ce0b5746bfa2cef74b286792b7" scoring_mode="default">
+<resourceref idref="e1242c23f38a4bc28f78be470b6ca11a"/>
+</item>
+<item id="c5d1e1da7575407894afccd92f3fdf67" scoring_mode="default">
+<resourceref idref="a8952d8df55c4fa58e95dfe8915616ee"/>
+</item>
+<item id="f8898fffbf0449b5ae69ffd6c16804a4" scoring_mode="default">
+<resourceref idref="b7fc652555dd4e58905c7bf58c6e2395"/>
+</item>
+</module>
+<module id="d398cdd603c8432e8fde99f081b7bdcd">
+<title>Ethics of Data Science</title>
+<item id="ca269966c5874b49a8fd0016996ad56b" scoring_mode="default">
+<resourceref idref="bce9e0d10f3742ac9807040cfe2e749f"/>
+</item>
+<item id="f32f7de717e64f85bdbc7a5811a01574" scoring_mode="default">
+<resourceref idref="e0e0e4def10146f0821e46fc2f1a1bd5"/>
+</item>
+<item id="d91028c419ad4455a7d90506b58ae2fb" scoring_mode="default">
+<resourceref idref="e776dc54066f4fbf879c0769e784befb"/>
+</item>
+<item id="c6e10b3672df4a3bbe89a68d4bffd871" scoring_mode="default">
+<resourceref idref="c777a12fdffc4fc09e9a180bd6a7ab0f"/>
+</item>
+<item id="bae91cf1e74d4d1386f94237ef598ddc" scoring_mode="default">
+<resourceref idref="f59f965701df42e796a110d414580861"/>
+</item>
+<item id="e0ba4a810d9749b685bb3f74ba24e394" scoring_mode="default">
+<resourceref idref="f6a6e752b7e24948a450dd7d36f338dd"/>
+</item>
+<item id="b25bc698811e4413bc0d7927c6d3ddb9" scoring_mode="default">
+<resourceref idref="d45a40acd14849788466c1143a044ad5"/>
+</item>
+</module>
+<module id="ed0cf69816104eeba203835d82380bcb">
+<title>Data Structures and Algorithms</title>
+<item id="bc5ac9188787471483ab638c007f2f86" scoring_mode="default">
+<resourceref idref="c492fd6d2f584b22b1311575a6b5f34f"/>
+</item>
+<item id="f5062430991d498dba0e94e8865a3b17" scoring_mode="default">
+<resourceref idref="ba17dd112c6d4f6a95da0edf170a0816"/>
+</item>
+<item id="a68357bd4db147c78d1ab9262df7afcc" scoring_mode="default">
+<resourceref idref="b390de2b784d43dca12b8e4901c4c96a"/>
+</item>
+<item id="eb49723dcffd48ba98b82c9d7f28bc9c" scoring_mode="default">
+<resourceref idref="b8bc20e68b4a418f91838018089d72fb"/>
+</item>
+</module>
+<module id="a979f2fc02444143be3150d19f2fbe81">
+<title>Sparse Matrix</title>
+<item id="d7f4bb375af64ad0a9a79da6411256eb" scoring_mode="default">
+<resourceref idref="a460877623d649e0901a1f563bf40eb9"/>
+</item>
+<item id="db5a5ba3985c4e798e200c335507c704" scoring_mode="default">
+<resourceref idref="af9ea4c0e9c34b588972e5eeece43e58"/>
+</item>
+<item id="dc31ad6c68054e21934a31001c6e8238" scoring_mode="default">
+<resourceref idref="c1e11b9a6a8c4e4491adb9247800ed42"/>
+</item>
+<item id="d2440a7c0353486ba500f4f6b6872959" scoring_mode="default">
+<resourceref idref="cdc4379d91cd4d6aa7c443ae9101ee23"/>
+</item>
+</module>
+</unit>
+<unit id="d655776a744d4427a1bc9c6b42819a5e">
+<title>Exploratory Data Analysis</title>
+<module id="d5dfb340d9ee4c98adaa0bf4b7c550d1">
+<title>Performing Exploratory Data Analysis</title>
+<item id="e3933b763bca4e29bc539fd8b6c65846" scoring_mode="default">
+<resourceref idref="e148406a387545d7ac7e91f1ab4ae2e3"/>
+</item>
+<item id="f6a56d158eff48eabeaf4790ad27a80f" scoring_mode="default">
+<resourceref idref="c170ce5d68da4efbba6b02868d76bbc8"/>
+</item>
+<item id="efd878f0cba14a93a17a33d8657e7d70" scoring_mode="default">
+<resourceref idref="d56d3bb42c074de99f204348d13e6fc2"/>
+</item>
+<item id="b11c75c1e4da481fb23d15af1dc1409b" scoring_mode="default">
+<resourceref idref="c6074080cb15439da39dc5222240a51f"/>
+</item>
+<item id="a9eaf1b568324cc9b0d368bb2b284714" scoring_mode="default">
+<resourceref idref="c3f0a1483ed946b6ad84ef1dde3ebbbb"/>
+</item>
+</module>
+<module id="c236325be05a46ee935c466b031e45e7">
+<title>Statistical Inference & Hypothesis Testing</title>
+<item id="ae2199a3b811479bb994e063a37906e9" scoring_mode="default">
+<resourceref idref="da0341efc524427287f5f056a3c2e31c"/>
+</item>
+<item id="d92220f608fd404d975e25c30e068876" scoring_mode="default">
+<resourceref idref="ae0799c90cfc454bb41bf2541c88cc87"/>
+</item>
+<item id="aa7bbae7988e4386875366bf4a9a3dd9" scoring_mode="default">
+<resourceref idref="c10d6b7d50014ae294a05d82ba632a85"/>
+</item>
+<item id="cf5970d5858c476e813981a7c5c55879" scoring_mode="default">
+<resourceref idref="ac0b705f87d44dbdab3a7b27dfd6f04b"/>
+</item>
+</module>
+<module id="a626453b9d4d4724a9c133b124bc2245">
+<title>Feature Engineering</title>
+<item id="d24fbeadfce24c53ab02c2b13bfe5a6f" scoring_mode="default">
+<resourceref idref="e836784715544d8ab29d72da3687b322"/>
+</item>
+<item id="b84cbcc4d37842998fd8934e8f421d79" scoring_mode="default">
+<resourceref idref="be2904e7ee5f4413a60451a6f582b3b8"/>
+</item>
+<item id="d7ab427787e944399d694009b05c517e" scoring_mode="default">
+<resourceref idref="e656dd356b48423a95d0257066d895d9"/>
+</item>
+<item id="a4b9e6e0e7ce424cb180f5eb2f02f79f" scoring_mode="default">
+<resourceref idref="afe43b3ca23848d29a3af1d12f9c426d"/>
+</item>
+<item id="b2842b64608b463b93e6408b3da5e372" scoring_mode="default">
+<resourceref idref="a3fbdc66fe9747eeb172d065384945d9"/>
+</item>
+<item id="ea971dc0034f41698e86dcc99cf48cff" scoring_mode="default">
+<resourceref idref="f6c715f0cc9e4529bb6a01bcc1c762b2"/>
+</item>
+<item id="d753ee2aff4d4fd18f8b075d730f2c2d" scoring_mode="default">
+<resourceref idref="a7810a02e6ae427b99534bee9597bd66"/>
+</item>
+</module>
+</unit>
+<unit id="c5ca20018d864223bea519d5860207f2">
+<title>Analytic Algorithms and Model Building</title>
+<module id="e5b0786e298640709651f0e663316e99">
+<title>Supervised and Unsupersived Techniques</title>
+<item id="dc639048dfb84d74a8b1bd76bf6bf18f" scoring_mode="default">
+<resourceref idref="f73b5ad409304e1c8a4ec689bab7463d"/>
+</item>
+<item id="b2ce24fc2eab4127a5e3107fd61cc0e4" scoring_mode="default">
+<resourceref idref="ed91e3be86334b32883983125941046e"/>
+</item>
+<section id="c7c63bb3cbc541b2add772e8a4399e92">
+<title>Cluster Analysis</title>
+<item id="b2611ee84f864ace873f5f89828f8fa6" scoring_mode="default">
+<resourceref idref="af529a5ec36b4e2aa5ef42060df029ce"/>
+</item>
+<item id="d9a80425b9b94c079234e48e83807718" scoring_mode="default">
+<resourceref idref="d06e2d1cefb6421b946065b2d2ad647c"/>
+</item>
+<item id="c7e47d1ca2fe44b48a87bef178309f29" scoring_mode="default">
+<resourceref idref="e843820862824c77903d30f41a295dac"/>
+</item>
+</section>
+<item id="d78517272c0e4694b1bac9fa9d3a9983" scoring_mode="default">
+<resourceref idref="c73cb4303aec4dc8a75b8960603e99d5"/>
+</item>
+<section id="ad30292c397547218c06f9aa845411cd">
+<title>Classification and Regression Trees (CART)</title>
+<item id="ada01e8521284da498afdcd111220495" scoring_mode="default">
+<resourceref idref="c5a0b993dba046cab079b5dfeedaf908"/>
+</item>
+<item id="c6b95065911c4262921e0251c7bacbbf" scoring_mode="default">
+<resourceref idref="c0da183109594ae09b9ec5303ac457a9"/>
+</item>
+</section>
+<item id="f42f28fa22f64e2c84f48fcbfd696be7" scoring_mode="default">
+<resourceref idref="c925074097744ccba39546b7be2d28c9"/>
+</item>
+<item id="da017940e8fc48ab8a2e213d8d08ca85" scoring_mode="default">
+<resourceref idref="f92219fb485c4e96bbb649d63e54a7c5"/>
+</item>
+<item id="f55acb431e5e4769b3c444d79da0d4da" scoring_mode="default">
+<resourceref idref="bd3166542c1c4dc18c97f97941638d8c"/>
+</item>
+</module>
+<module id="e43d425f624c48a099e9c6dfe483710a">
+<title>Bias/Variance Tradeoff</title>
+<item id="c8bed3e2ed7e4d17a4d101ddfe462be3" scoring_mode="default">
+<resourceref idref="e4295ef073cb4dc097af7e2f6481a307"/>
+</item>
+<item id="f8a1abf3a0334f10a2e6aadf0d7803a5" scoring_mode="default">
+<resourceref idref="d93728c4ca46465b9d5e4a243051fdd3"/>
+</item>
+<item id="cdbd439b18e14b5fa81d224cba0eb891" scoring_mode="default">
+<resourceref idref="f692a0964d6245e48c56a2d31412e253"/>
+</item>
+<item id="d2e341ffd7f74a36afd687887a78a0e7" scoring_mode="default">
+<resourceref idref="a485a8554ea04ec48e57ffa11682c30a"/>
+</item>
+<item id="b50a9a1fc5c9404aaeec742e086177df" scoring_mode="default">
+<resourceref idref="ed6c530b62b0449484448126c11e6613"/>
+</item>
+</module>
+<module id="ab8cd44196fa4d24bd1e3aafa345a6fc">
+<title>[Research Paper] Conceptual Complexity and the Bias/Variance Tradeoff</title>
+<item id="ca552d28cd9e41e0bbf0f41770dbdf1f" scoring_mode="default">
+<resourceref idref="d0d4af85eba44a5ea8e8403a7b275d9a"/>
+</item>
+<item id="ff25cc7c248f40518950af2f9030cba3" scoring_mode="default">
+<resourceref idref="ad3b2425012b4743afb0ac06eb729981"/>
+</item>
+</module>
+<module id="e571dbf62a054769ae0e46b9c48f9f85">
+<title>Text Data & Natural Language Processing</title>
+<item id="aa63d2cad4a241b2ad24a73b7091a70d" scoring_mode="default">
+<resourceref idref="e3586cba434145ecbd1803995318fb6b"/>
+</item>
+<item id="c07b403048df4d72838e430e4bd09d49" scoring_mode="default">
+<resourceref idref="d95c2c3049a3469b9b1542bc06ac7ef4"/>
+</item>
+<item id="ed8458296e5e4f18a02492e24ea9c67f" scoring_mode="default">
+<resourceref idref="f155713ef20f4c70bbf59f362ffab588"/>
+</item>
+<item id="aec07c02f36c4930ae860367ffcad11c" scoring_mode="default">
+<resourceref idref="b9d012baeaa2454c9931814411b98cb5"/>
+</item>
+<item id="d6758692785c49bdb537942775cca8be" scoring_mode="default">
+<resourceref idref="c42b7dcb6a564dc6be90018e9dd0afc6"/>
+</item>
+<item id="b6b94b5b466746269917b2d2012ce33b" scoring_mode="default">
+<resourceref idref="df1f84f174834537937e6b696f3dbc71"/>
+</item>
+<item id="e263b08978ea44ebbcea5c2c8320d0a7" scoring_mode="default">
+<resourceref idref="e156f458f50e4372b3f5f30704c098aa"/>
+</item>
+<item id="cc3f7ae66e5a47bfba53dd9690629e9b" scoring_mode="default">
+<resourceref idref="c32d0c96913b4c9a8fec49f4fe5f69b1"/>
+</item>
+</module>
+<module id="cf22149b3b504abb8cf727f4e4846720">
+<title>Model Selection</title>
+<item id="e2db7f1a6b2a475586167a385fd921e7" scoring_mode="default">
+<resourceref idref="c0d8e2d38a6c4f06844ae7dde6b38d69"/>
+</item>
+<item id="d8fe4ed47e6448ba928f483ba47357c6" scoring_mode="default">
+<resourceref idref="a31272afbf1840bcbc0d503909b18e78"/>
+</item>
+<item id="d680eff41a8f41918c73a630afce664c" scoring_mode="default">
+<resourceref idref="f0b1f52b9c484fb7b70bbcafcaf64e3d"/>
+</item>
+<item id="c0067af0c6ff4306b77f4f74d91a32b5" scoring_mode="default">
+<resourceref idref="a567af045b504b6a96c21d4802d2cd26"/>
+</item>
+<item id="a2d5cbbe27d544c4ad3f99ae81d63a47" scoring_mode="default">
+<resourceref idref="ec8ca681ac354da4ac46738a71c9cdc5"/>
+</item>
+</module>
+</unit>
+<unit id="a1bc4245742c4203a7a79209bc3577bf">
+<title>Model Evaluation</title>
+<module id="f521c766377c44318abad61d2b4c53dd">
+<title>Metrics and Interpretation</title>
+<item id="bf5ffe62040040379dae3cc78978b15f" scoring_mode="default">
+<resourceref idref="d2206ec065de492685ff42d30117262f"/>
+</item>
+<item id="fe9fcbea2aef4f07aa50ba14f0bd634b" scoring_mode="default">
+<resourceref idref="d4e485b6090c4ca98a13a198183378a1"/>
+</item>
+<item id="d153ab996248464c91edc6ee2bf23fdc" scoring_mode="default">
+<resourceref idref="e29c43b25dbf4a898cc00544d06001ab"/>
+</item>
+<item id="b75a52bd797d4db0afb9ea2e488578cd" scoring_mode="default">
+<resourceref idref="c6b8b1164cf04cb7a119d08ffcf91511"/>
+</item>
+<item id="e384440f8c194b6fb7a579ddfb26266f" scoring_mode="default">
+<resourceref idref="d5e79d8d2a0643428754d3b9dc3ad975"/>
+</item>
+<item id="da8d8b0ab1634c1bba0ed8f077e31a2f" scoring_mode="default">
+<resourceref idref="b5cd5fd4d66d47358e696b0411043fba"/>
+</item>
+</module>
+<module id="eb1814b11fb0483dbfa10ba18fd88ee9">
+<title>[Research Paper] Manipulating and Measuring Model Interpretability</title>
+<item id="e6a9730ad13f4c928ba3cdfdcf91823e" scoring_mode="default">
+<resourceref idref="a6757e7b3dbf42e5b66e27f7744218bd"/>
+</item>
+<item id="fce3695ad7f64b709bdfe40147dee8c1" scoring_mode="default">
+<resourceref idref="b7ceae5042564a13b7868f95bddacfcb"/>
+</item>
+</module>
+</unit>
+<unit id="ea6c93d71b7c4000bd23ac71bc102057">
+<title>Deep Learning and Model Deployment</title>
+<module id="abf813bd511b4141a64a90142cce3fc6">
+<title>CPU vs. GPU</title>
+<item id="cf70c8f8fb8247dd80ba2c2b8a838e29" scoring_mode="default">
+<resourceref idref="Hardware"/>
+</item>
+<item id="d19eb0cffebd4769a4d1e14881ca15fc" scoring_mode="default">
+<resourceref idref="TheBasicsofHardware"/>
+</item>
+<item id="d77cdc088c70450780de57164cd62f9b" scoring_mode="default">
+<resourceref idref="fa6250d2e56a418db1cf98a4827de1a4"/>
+</item>
+<item id="aadfcefa7490407fb715a057b8371b74" scoring_mode="default">
+<resourceref idref="c101b38dfae74ecfa8e7c6523a8f2c97"/>
+</item>
+<item id="f0a114093d5b4a04b36ecb3bd804923e" scoring_mode="default">
+<resourceref idref="af7fb2d02c9848ca97c450f9907e18b7"/>
+</item>
+<item id="fb53468dd3594ed4b66236b27c2988cc" scoring_mode="default">
+<resourceref idref="f0cb71ecc8fa41a6aa43f49eea010a46"/>
+</item>
+<item id="c827fabd01704dee91b5edfee3e5d1c4" scoring_mode="default">
+<resourceref idref="e0c852a459cb476596e9144bfab19993"/>
+</item>
+</module>
+<module id="d1a0369c0ec14198ab8f08adc19fcbd8">
+<title>Deep Learning & Computer Vision</title>
+<item id="ee04d978f51445f689ad1c05095082ed" scoring_mode="default">
+<resourceref idref="a73260095e4348c18de530adf6a22294"/>
+</item>
+<item id="cf4bb981d8e948678cc5b558f4df0ec9" scoring_mode="default">
+<resourceref idref="bedf187269ec44a5a8575853a517c929"/>
+</item>
+<item id="a8cb1971eaa240d48aac6da79ea48d3d" scoring_mode="default">
+<resourceref idref="b237e70ff0b9432396b3dbd81cede5ab"/>
+</item>
+<item id="f952c12a3a4f4719846bc3b4f55bb323" scoring_mode="default">
+<resourceref idref="f471cfbbd151446d825497987a3eeeb1"/>
+</item>
+<item id="f9c67bbaa6694569bbdb0fe33afb3c77" scoring_mode="default">
+<resourceref idref="abc1353e91484c4c826f24ec08c0c0d0"/>
+</item>
+<item id="fb9320a33deb44b1ad421901e565cdf0" scoring_mode="default">
+<resourceref idref="bdc55f33fb3346febdd1425a47325913"/>
+</item>
+<item id="dcd78d96362d4f6a9fe55ad2ed31eb69" scoring_mode="default">
+<resourceref idref="b2cab43e50334a718071109d1a304a8e"/>
+</item>
+<item id="e0750a625437476fbdcd84616927b568" scoring_mode="default">
+<resourceref idref="e2295d8b0bc14d61843ec7068f572ff9"/>
+</item>
+<item id="c44fce88bfa3431f9e4cff474ac64ee5" scoring_mode="default">
+<resourceref idref="c319ae74539f4e45967b312792af9ba7"/>
+</item>
+</module>
+<module id="fcba7805569540c29d4fca605ee927f3">
+<title>Model Deployment</title>
+<item id="b2fcb9dc3a804afeb366c7732dae38cb" scoring_mode="default">
+<resourceref idref="cd851369a8ed4a40a657f8c066ccaaad"/>
+</item>
+<item id="ce69044d354549d2baef09102af70465" scoring_mode="default">
+<resourceref idref="Hands-on"/>
+</item>
+<item id="f55d84c448a345d18c2ba82f8c52b8ca" scoring_mode="default">
+<resourceref idref="e72e1d07407c412a81cfcf47f3763169"/>
+</item>
+<item id="e6088af52f5c4ea1bf3c936106956309" scoring_mode="default">
+<resourceref idref="eeda06a41a3a45fe86aee400b55d7b69"/>
+</item>
+<item id="de1408ef9027422285cda10c1d64e9d3" scoring_mode="default">
+<resourceref idref="a00d51ba691b49598ebedfc5e57664c6"/>
+</item>
+</module>
+</unit>
+<unit id="d13b8846b6ee4e9b9824eab3833fdc54">
+<title>Advanced Natural Language Processing</title>
+<module id="af4faafa799b486f8acff7e6d9065e73">
+<title>Language Representation and Transformers</title>
+<item id="c7c2f6ed3fd340559a47f14e20df7877" scoring_mode="default">
+<resourceref idref="aa224e7d28ee42f4bf5a6162ff092f1b"/>
+</item>
+<item id="a6619f5345264013adc6b3dcd3d9625e" scoring_mode="default">
+<resourceref idref="d0fdbac946a34ac7a983915dae32a05b"/>
+</item>
+<item id="b185db6e6c1b448a9531d2b570543727" scoring_mode="default">
+<resourceref idref="fc03f67af2e341e3aaf29ee2ea60c8ca"/>
+</item>
+<item id="c210b46cbc344211814ad67aaaef8267" scoring_mode="default">
+<resourceref idref="de201da91ca548b2b6438334dcd2e7a3"/>
+</item>
+<item id="d1a3c3b37cff4816bb4ca73793126b02" scoring_mode="default">
+<resourceref idref="b7641a6664624cdfa48857fe95135643"/>
+</item>
+</module>
+<module id="f3ee58ef63a54af1aa19475535aaa2dd">
+<title>BERT</title>
+<item id="d909626f5a20485d88b17257cc6fa9bc" scoring_mode="default">
+<resourceref idref="f2b72539c48944dda3e74af784c6f6cf"/>
+</item>
+<item id="e3148df0d83a40baa9f0ee0efc149d60" scoring_mode="default">
+<resourceref idref="ae92a42d30cb4a64bfa6606ac478537c"/>
+</item>
+</module>
+<module id="af015634e454461a8d8b3481b97240ad">
+<title>[Research Paper] Attention is All You Need</title>
+<item id="e1032ae6744f4508a9ff63a8a5336552" scoring_mode="default">
+<resourceref idref="b4a93ced433243cab9e7026d9c9f7d9c"/>
+</item>
+<item id="bc2405559e4645f8bd11a07d36edc1fe" scoring_mode="default">
+<resourceref idref="c7717c1a5674403aa4470f37884ce9ed"/>
+</item>
+</module>
+</unit>
+<unit id="f3def95a6bb1474cb8313b8acd4947d3">
+<title>Final Exam</title>
+<item id="a5e763b7d5db475ca7353b3e7c696de1" scoring_mode="default">
+<resourceref idref="e905e6a0e5d142499e3d1c084ceef33e"/>
+</item>
+</unit>
+</sequence>
+</sequences>
+</organization>
