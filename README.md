@@ -1,5 +1,5 @@
 # Focal
-<img width="440" alt="Screen Shot 2023-10-20 at 11 06 08 AM" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/113000033/e1a7fe39-7fac-4533-9e49-2cd1928dc5bf">
+<img width="440" align= "center" alt="Focal" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/113000033/e1a7fe39-7fac-4533-9e49-2cd1928dc5bf">
 
 As education continually trends toward online learning, giving students frequent assessments, both formative and summative, is crucial to their development. These assessments often come at a high price to educators however, as they are forced to create a large bank of questions to provide realistic learning opportunities for students of varied skill levels. In addition to the high cost to produce these assessments, educators likewise must spend a significant amount of time providing students with quality feedback. This feedback helps to ensure the assessments that students are completing enrich their learning experience, but is time consuming to produce. Focal is intended to reduce the burden of these assessments on educators. By automating the assessment creation and evaluation pipeline, educators' time will be freed to focus on their various other responsibilities. 
 
