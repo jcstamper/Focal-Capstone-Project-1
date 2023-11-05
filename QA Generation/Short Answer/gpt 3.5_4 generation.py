@@ -8,10 +8,15 @@ import time
 openai.api_key = '' #Replace with your openAI API key
 
 def extract_text_from_xml(filename):
-    with open(filename, 'rb') as f:
+    with open('/content/a0abc3fa0e6b44aaaf5e70e36602b61e.xml', 'rb') as f:
         xml_bytes = f.read()
-    xml_str = xml_bytes.decode('UTF-8')
-    return xml_str
+        xml_str = xml_bytes.decode('UTF-8')
+
+
+        # Extract text from <p> tags
+        paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', xml_str, re.DOTALL)
+
+        return(" ").join(paragraphs)
 
 def find_keywords(xml_file_path):
     xml = extract_text_from_xml(xml_file_path)
