@@ -1,0 +1,81 @@
+Question,Rubric Item 1,Rubric Item 2,Rubric Item 3,Rubric Item 4,Rubric Item 5,Concept Covered (If any),Question Evaluation
+1,0,0,1,1,0,Expected Model,Poor
+2,1,1,1,1,1,Measurable Metrics,Good
+3,1,1,1,1,1,Customer retention,Good
+4,0,0,1,1,1,Interpretability,Fair
+5,1,1,1,1,1,Model Assessment and Model Selection,Good
+6,1,1,1,1,1,Transformer models,Good
+7,1,1,1,1,1,Model Selection for Inference,Good
+8,1,1,1,1,1,Accuracy rate,Good
+9,1,1,1,1,1,Customer Acquisition,Fair
+10,1,0,1,1,1,Data science knowledge,Good
+11,1,1,1,1,1,EVP Framework,Good
+12,1,1,1,1,1,Requirements Gathering Process,Good
+13,0,0,0,0,1,Data Science Project Hurdels ,Poor
+14,1,1,1,1,1,Bayes Theorem,Good
+15,1,1,1,1,1,Model Errors,Good
+16,1,1,1,1,1,Pool Based Sampling,Good
+17,0,0,0,0,0,None,Poor
+18,1,1,1,0,0,None,Poor
+19,1,1,1,1,1,Transformer models,Good
+20,1,1,0,0,0,None,Poor
+21,1,1,1,1,1,Transparency,Good
+22,1,1,0,0,0,None,Poor
+23,1,1,1,1,1,Naive Bayes (NB) Method,Good
+24,1,1,1,1,1,Agglomerative Clustering,Good
+25,1,1,0,0,0,XML,Poor
+26,1,1,1,1,1,Lazy and Eegar Learning,Good
+27,1,1,1,0,0,XML Document,Poor
+28,1,1,1,1,1,Minimum Description Length,Good
+29,1,1,1,1,1,Uncertainty Sampling,Good
+30,1,0,1,1,1,Solution Vision,Fair
+31,1,1,1,1,1,Model Training for Inference ,Good
+32,1,1,1,1,1,System Requirments,Good
+33,1,1,1,1,1,Similarity Functions,Good
+34,1,1,1,1,1,BIC Score,Good
+35,1,1,1,1,1,Model Inference ,Good
+36,1,1,1,1,1,BERT,Good
+37,1,1,1,1,1,Sequence2Sequence Model,Good
+38,0,1,1,1,1,Data Split for Model Inference,Good
+39,1,1,1,1,1,Model Selection for Inference,Good
+40,1,0,1,1,1,Information Gathering,Fair
+41,1,1,1,1,1,Model Selection,Good
+42,1,1,1,1,1,Gathering information,Good
+43,1,1,1,1,1,EDA,Good
+44,1,1,1,1,1,Naive Bayes,Good
+45,1,1,1,1,1,Discrimination in Data Science,Good
+46,1,1,1,1,1,System Architecture,Good
+47,1,1,1,1,1,Misclassification Rate,Good
+48,1,1,1,1,0,Inference,Good
+49,1,0,1,1,0,Model Selection,Fair
+50,1,1,1,1,0,AIC,Good
+51,1,1,1,1,1,LSTM,Good
+52,1,0,1,1,0,BERT,Fair
+53,1,1,1,1,0,BERT,Fair
+54,1,1,1,1,1,Data Sources,Good
+55,1,1,1,1,1,Stakeholders,Fair
+56,1,1,1,1,1,Transparency,Good
+57,1,1,1,1,0,Sequence2Sequence Models,Fair
+58,1,0,1,1,0,BERT,Fair
+59,1,1,1,1,1,Bayesian Inference,Good
+60,1,1,1,1,1,Business Requirements,Fair
+61,1,0,1,0,0,Black Box Models,Poor
+62,1,1,1,1,1,Data Science Life Cycle,Fair
+63,1,1,1,1,0,BERT,Fair
+64,1,1,1,1,0,Hierarchical Clustering,Good
+65,1,1,1,1,0,Data-driven solution,Fair
+66,1,1,1,1,0,Business Requirements,Fair
+67,1,1,1,0,1,Supervised Learning,Fair
+68,1,0,1,1,0,Project Management,Fair
+69,1,1,1,1,0,AIC,Good
+70,1,0,1,1,1,Accelerators,Good
+71,1,1,1,1,1,Data Science Life Cycle,Good
+72,1,1,1,1,1,Model Selection,Good
+73,1,1,1,1,1,Stakeholders,Good
+74,1,0,1,0,1,Stakeholder agreements,Poor
+75,1,1,1,1,0,Model complexity,Fair
+76,1,1,1,1,0,Log Loss in AIC Score,Good
+77,1,1,1,1,1,Computational architecture,Poor
+78,1,1,1,1,0,Inference,Fair
+79,1,1,1,1,1,Errors in model understanding,Fair
+80,1,1,1,1,1,Bias Error,Good
