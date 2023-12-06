@@ -24,13 +24,13 @@ $ pipenv install --dev
 $ pipenv shell
 ```
 # Running Pipeline
-Single File:
+### Single File:
 ```
 $ cd Pipeline
 $ python3 pipeline.py
 ```
 Respond to Following Quesions:
 <p align="center">
-<img width="440" align= "center" alt="Focal" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/113000033/e1a7fe39-7fac-4533-9e49-2cd1928dc5bf">
+<img width="463" alt="questions" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/567c4d44-2d48-4504-9414-9232eac891d5">
 </p>
 
