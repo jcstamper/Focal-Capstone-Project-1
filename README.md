@@ -30,11 +30,11 @@ $ export OPENAI_API_KEY="your API key here"
 $ cd Pipeline
 $ python3 pipeline.py
 ```
-##### Respond to the Following Questions: 
+#### Respond to the Following Questions: 
 
 *Questions will be written to a CSV file with the input file name.* 
 
-*Run times:* 
+##### *Run times:* 
 
 *No rubric, overall question evaluation only (~5 min. per file)* 
 
@@ -50,11 +50,11 @@ $ export OPENAI_API_KEY="your API key here"
 $ cd Pipeline
 $ python3 pipeline_directory.py
 ```
-##### Respond to the Following Questions:
+#### Respond to the Following Questions:
 
 *A question csv file will be created for each file in the input directory path. Filenames will be in the format {original filename}_questions.csv*
 
-*Run times:* 
+##### *Run times:* 
 
 *No rubric, overall question evaluation only (~5 min. per file)* 
 
