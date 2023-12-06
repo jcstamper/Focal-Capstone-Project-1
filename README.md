@@ -30,7 +30,7 @@ $ export OPENAI_API_KEY="your API key here"
 $ cd Pipeline
 $ python3 pipeline.py
 ```
-Respond to the Following Questions:
+Respond to the Following Questions: \n
 *Questions will be written to a CSV file with the input file name. 
 *Run times: 
 No rubric, overall question evaluation only (~5 min. per file) 
