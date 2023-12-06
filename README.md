@@ -32,7 +32,9 @@ $ python3 pipeline.py
 ```
 #### Respond to the Following Questions: 
 
-*Questions will be written to a CSV file with the input file name.* 
+*Input file path should be an XML file path.*
+
+*Questions will be written to a CSV file with the output file name.* 
 
 ##### *Run times:* 
 
