@@ -26,15 +26,32 @@ $ pipenv shell
 # Running Pipeline
 ### Single File:
 ```
+$ export OPENAI_API_KEY="your API key here"
 $ cd Pipeline
 $ python3 pipeline.py
 ```
-Respond to the Following Questions: 
-<p align="center">
-<img width="550" alt="questions2" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/caf9eb01-ef3f-4892-8fd5-cc3e06f80680">
-</p>
 Respond to the Following Questions:
+*Questions will be written to a CSV file with the input file name. 
+*Run times: 
+No rubric, overall question evaluation only (~5 min. per file) 
+Full rubric with overall question evaluation (~15-20 min. per file)
 <p align="center">
-<img width="550" alt="questions" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/567c4d44-2d48-4504-9414-9232eac891d5">
+<img width="650" alt="questions2" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/caf9eb01-ef3f-4892-8fd5-cc3e06f80680">
+</p>
+
+
+### Multiple Files
+```
+$ export OPENAI_API_KEY="your API key here"
+$ cd Pipeline
+$ python3 pipeline_directory.py
+```
+Respond to the Following Questions:
+*A question csv file will be created for each file in the input directory path. Filenames will be in the format {original filename}_questions.csv 
+*Run times: 
+No rubric, overall question evaluation only (~5 min. per file) 
+Full rubric with overall question evaluation (~15-20 min. per file)
+<p align="center">
+<img width="650" alt="questions" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/567c4d44-2d48-4504-9414-9232eac891d5">
 </p>
 
