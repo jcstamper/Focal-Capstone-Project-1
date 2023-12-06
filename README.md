@@ -52,6 +52,8 @@ $ python3 pipeline_directory.py
 ```
 #### Respond to the Following Questions:
 
+*The filepath should be a directory with XML files containing text.*
+
 *A question csv file will be created for each file in the input directory path. Filenames will be in the format {original filename}_questions.csv*
 
 ##### *Run times:* 
