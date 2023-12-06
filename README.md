@@ -23,3 +23,14 @@ or with Pipenv:
 $ pipenv install --dev
 $ pipenv shell
 ```
+# Running Pipeline
+Single File:
+```
+$ cd Pipeline
+$ python3 pipeline.py
+```
+Respond to Following Quesions:
+<p align="center">
+<img width="440" align= "center" alt="Focal" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/113000033/e1a7fe39-7fac-4533-9e49-2cd1928dc5bf">
+</p>
+
