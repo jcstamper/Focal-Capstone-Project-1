@@ -29,8 +29,12 @@ $ pipenv shell
 $ cd Pipeline
 $ python3 pipeline.py
 ```
-Respond to Following Quesions:
+Respond to the Following Questions: 
 <p align="center">
-<img width="463" alt="questions" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/567c4d44-2d48-4504-9414-9232eac891d5">
+<img width="550" alt="questions2" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/caf9eb01-ef3f-4892-8fd5-cc3e06f80680">
+</p>
+Respond to the Following Questions:
+<p align="center">
+<img width="550" alt="questions" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/567c4d44-2d48-4504-9414-9232eac891d5">
 </p>
 
