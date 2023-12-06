@@ -193,7 +193,7 @@ def generate_answers(questions, file_text):
     print(f'Answer {counter}/{len(questions)} generated.')
   return answers
 
-def create_file(input_file_path, questions, answers, concepts, reviews, output_file_path, rubric='No'):
+def create_file(input_file_path, questions, answers, concepts, reviews, rubric='No'):
     df = pd.DataFrame({'Question':questions, 'Question Evaluation':reviews, 'Answer': answers, 'Concepts':[concepts]*len(answers), 'Original File':input_file_path})
     if isinstance(rubric, pd.DataFrame):
         df['Grammatical Accuracy'] = rubric['gramatical_accuracy']
@@ -203,8 +203,15 @@ def create_file(input_file_path, questions, answers, concepts, reviews, output_f
         df['Covers Key Concept'] = rubric['covers_key_concept']
         df['Concept Covered'] = rubric['concept_covered']
     df = df[df['Question Evaluation']!='Poor']
-    df.to_csv(output_file_path)
+    df.to_csv(f'{input_file_path[:-4]}_questions.csv')
 
+def list_xml_file_paths(folder_path):
+    file_paths = []
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith('.xml'):
+                file_paths.append(os.path.join(root, file))
+    return file_paths
 
 def main():
     print(" ____   ____   ____   ____   __")
@@ -213,29 +220,33 @@ def main():
     print("|  __| | |  | | |    |    | |  |")
     print("| |    | |  | | |__  | |  | |  |__")
     print("|_|    |____| |____| |_|__| |_____|")
-    filename = input("Please enter file path you would like questions for: ")
+    foldername = input("Please enter file path you would like questions for: ")
     course_type = input("What is the primary domain of this course text?: ")
     full_rubric = input("Would you like a full grading rubric for each question? [yes/no]: ")
-    file_text = extract_text_from_xml(filename)
-    print("*****Text Extracted*****")
-    print("*****Extracting Concepts*****")
-    concepts, concepts_for_print = extract_concepts(file_text, course_type)
-    print(f'Extracted Key Concepts: \n{concepts_for_print}')
-    print("*****Generating Questions*****")
-    questions, questions_for_print = write_questions(concepts, file_text)
-    print(f'Generated Questions: \n{questions_for_print}')
-    print("*****Evaluating Questions*****")
-    if full_rubric == 'Yes' or full_rubric == 'yes' or full_rubric == 'y' or full_rubric == 'Y':
-        reviews, rubric = evaluate_questions(questions, concepts, full_rubric=True, course_type=course_type)
-    else:
-        reviews, rubric = evaluate_questions(questions, concepts, course_type=course_type)
-    print("*****Question Evaluation Successful*****")
-    print("*****Generating Answers*****")
-    answers = generate_answers(questions, file_text)
-    print("*****Answer Generation Successful*****")
-    output_path = input("Please write the name of the file you would like to write these questions to: ")
-    create_file(filename, questions, answers, concepts, reviews, output_path, rubric=rubric)
-    print("*****File Written Successfully*****")
+    file_paths = list_xml_file_paths(foldername)
+    counter = 0
+    for filename in file_paths:
+        file_text = extract_text_from_xml(filename)
+        print("*****Text Extracted*****")
+        print("*****Extracting Concepts*****")
+        concepts, concepts_for_print = extract_concepts(file_text, course_type)
+        print(f'Extracted Key Concepts: \n{concepts_for_print}')
+        print("*****Generating Questions*****")
+        questions, questions_for_print = write_questions(concepts, file_text)
+        print(f'Generated Questions: \n{questions_for_print}')
+        print("*****Evaluating Questions*****")
+        if full_rubric == 'Yes' or full_rubric == 'yes' or full_rubric == 'y' or full_rubric == 'Y':
+            reviews, rubric = evaluate_questions(questions, concepts, full_rubric=True, course_type=course_type)
+        else:
+            reviews, rubric = evaluate_questions(questions, concepts, course_type=course_type)
+        print("*****Question Evaluation Successful*****")
+        print("*****Generating Answers*****")
+        answers = generate_answers(questions, file_text)
+        print("*****Answer Generation Successful*****")
+        create_file(filename, questions, answers, concepts, reviews, rubric=rubric)
+        print("*****File Written Successfully*****")
+        counter += 1
+        print(f'{counter}/{len(file_paths)} Complete')
 
 if __name__ == "__main__":
     main()
