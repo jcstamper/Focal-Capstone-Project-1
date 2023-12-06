@@ -36,9 +36,9 @@ $ python3 pipeline.py
 
 *Run times:* 
 
-  *No rubric, overall question evaluation only (~5 min. per file)* 
+    *No rubric, overall question evaluation only (~5 min. per file)* 
 
-  *Full rubric with overall question evaluation (~15-20 min. per file)*
+    *Full rubric with overall question evaluation (~15-20 min. per file)*
 <p align="center">
 <img width="650" alt="questions2" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/caf9eb01-ef3f-4892-8fd5-cc3e06f80680">
 </p>
@@ -56,9 +56,9 @@ $ python3 pipeline_directory.py
 
 *Run times:* 
 
-  *No rubric, overall question evaluation only (~5 min. per file)* 
+    *No rubric, overall question evaluation only (~5 min. per file)* 
   
-  *Full rubric with overall question evaluation (~15-20 min. per file)*
+    *Full rubric with overall question evaluation (~15-20 min. per file)*
 <p align="center">
 <img width="650" alt="questions" src="https://github.com/mitali-p42/Focal-Capstone-Project/assets/95736002/567c4d44-2d48-4504-9414-9232eac891d5">
 </p>
