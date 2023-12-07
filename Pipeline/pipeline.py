@@ -216,6 +216,7 @@ def main():
     filename = input("Please enter file path you would like questions for: ")
     course_type = input("What is the primary domain of this course text?: ")
     full_rubric = input("Would you like a full grading rubric for each question? [yes/no]: ")
+    output_path = input("Please write the file path you would like to write these questions to: ")
     file_text = extract_text_from_xml(filename)
     print("*****Text Extracted*****")
     print("*****Extracting Concepts*****")
@@ -233,7 +234,6 @@ def main():
     print("*****Generating Answers*****")
     answers = generate_answers(questions, file_text)
     print("*****Answer Generation Successful*****")
-    output_path = input("Please write the name of the file you would like to write these questions to: ")
     create_file(filename, questions, answers, concepts, reviews, output_path, rubric=rubric)
     print("*****File Written Successfully*****")
 
